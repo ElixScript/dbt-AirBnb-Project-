@@ -5,4 +5,4 @@ snapshots :
       unique_key : id
       strategy : timestamp
       updated_at : updated_at
-      hard_delete : invalidate 
+      hard_deletes : invalidate 
