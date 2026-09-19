@@ -8,3 +8,4 @@ logs/
 .venv/
 dbt-bootcamp/
 .env
+profiles.yml
