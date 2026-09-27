@@ -61,6 +61,7 @@ models:
     versions:
       - v: 1
         defined_in: dim_hosts_cleansed
+        deprecation_date: 2030-01-01
       - v: 2
         columns:
           - include: '*'
@@ -70,7 +71,7 @@ models:
             data_type: string
             constraints:
               - type: not_null
-    latest_version : 1
+    latest_version : 2
     description: Cleansed table for the Airbnb hosts
     columns:
       - name: host_id
