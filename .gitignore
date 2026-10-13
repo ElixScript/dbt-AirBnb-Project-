@@ -9,3 +9,4 @@ logs/
 dbt-bootcamp/
 .env
 profiles.yml
+set-env.ps1
